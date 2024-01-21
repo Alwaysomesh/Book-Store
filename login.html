@@ -7,19 +7,13 @@
 <link rel="website icon" type="webp" href="https://images.crunchbase.com/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/i5aqhhnttxrjkjmdwhft">
 </head>
 <STYLE>
-Logo Website Name
-Home Login Registration No Catalogue Cart
-CSE
-ECE Description of the website
-EEE
-CIVIL
 * {
 margin: 0;
 }
 TABLE {
 BORDER: 3PX SOLID BLACK;
 WIDTH: 98%;
-MARGIN: AUTO;
+margin: AUTO;
 height: 99vh;
 border-collapse: collapse;
 }
@@ -41,7 +35,7 @@ text-align: center;
 font-size: 25PX;
 font-weight: bold;
 background: url("https://miro.medium.com/v2/resize:fit:720/format:webp/1*6Jp3vJWe7VFlFHZ9WhSJng.jpeg") no-repeat center center/cover;
-color: black;
+color: rgb(71, 6, 71);
 }
 TD, TR {
 border: 2px solid rgb(250, 250, 83);
@@ -87,13 +81,34 @@ border: none;
 height: 180px;
 width: 200px;
 }
-
-div {
-HEIGHT: 100PX;
-WIDTH: 500PX;
+section {
+display: flex;
+flex-direction: column;
+width: 100px;
+}
+H2 {
+color: rgb(255, 0, 0);
+background: white;
+font-weight: bolder;
+HEIGHT: 50PX;
+WIDTH: 300PX;
 margin-top: 40px;
+border-radius: 8px;
+BORDER: 2PX SOLID black;
+box-shadow: 2px 2px 10px black;
+MARGIN: AUTO;
+}
+FORM {
+HEIGHT: 250PX;
+WIDTH: 340PX;
+BORDER: 2PX SOLID black;
 MARGIN: AUTO;
 background: white;
+BORDER-RADIUS: 8PX;
+text-align: CENTER;
+}
+DIV {
+margin-top: 40px;
 align-content: center;
 }
 </STYLE>
@@ -112,10 +127,20 @@ align-content: center;
 </TR>
 <TR>
 <TD class="all"><a href="">CSE</a></TD>
-<TD rowspan="5"colspan="4"id="desp">
-<div>This is a Online Book Store designed by the students of G L Bajaj Institute of Technology and Management</div>
-</TD>
+<TD rowspan="5" colspan="4" id="desp">
+<H2>LOGIN FORM</H2><BR>
+<FORM>
+<DIV>
+<LABEL>Name:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</LABEL>
+<input type="text"><br>
+<label>Password: </label>
+<input type="password"><BR><BR>
+<input type="SUBMIT">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<button>LOGIN</button>
+</DIV>
+</FORM>
 </TR>
+
 <TR class="all">
 <TD class="all"><a href="">ECE</a></TD>
 </TR>
@@ -126,5 +151,5 @@ align-content: center;
 <TD class="all"><a href="">CIVIL</a></TD>
 </TR>
 </TABLE>
-<body>
-</html
+</body>
+</html>
