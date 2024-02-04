@@ -37,10 +37,15 @@ font-weight: bold;
 background: url("https://miro.medium.com/v2/resize:fit:720/format:webp/1*6Jp3vJWe7VFlFHZ9WhSJng.jpeg") no-repeat center center/cover;
 color: black;
 }
-TD,TR {
+.table1 TD,TR {
 border-bottom: none;
 text-align: center;
-border: 2px solid rgb(250, 250, 83);
+border: 2px solid rgb(255, 255, 255);
+}
+.table2 tr,td {
+border-bottom: none;
+text-align: center;
+border: 2px solid rgb(0, 0, 0);
 }
 #WEB {
 text-align: center;
@@ -119,9 +124,15 @@ height: 30px;
 .xml {
 height: 30px;
 }
+footer {
+position: absolute;
+bottom: 0;
+width: 100%;
+height: 30px;
+}
 </STYLE>
 <body>
-<TABLE>
+<TABLE class=""table1>
 <TR class="one">
 <TD id="logo" class="none"><img src="https://images.crunchbase.com/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/i5aqhhnttxrjkjmdwhft"></TD>
 <TD colspan="4" ID="WEB" class="none">ONLINE BOOK STORE</TD>
@@ -222,5 +233,10 @@ src="https://t3.ftcdn.net/jpg/00/26/12/44/240_F_26124443_QQVqQWwQGQFqBQg9QACdpkt
 <TD class="all"><a href="">CIVIL</a></TD>
 </TR>
 </TABLE>
+
+<footer style="background-color: black; color: white;">
+<h3 style="margin-left: 35%;">copyright by alwaysomesh &copy; 2024 some rights reserved.</h3>
+</footer>
+    
 </body>
 </html>
